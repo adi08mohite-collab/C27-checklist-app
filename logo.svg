@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 260" role="img" aria-label="C27 Checklist logo">
+<title>C27 Checklist</title>
+<rect x="125" y="20" width="130" height="130" rx="30" fill="#1e3a8a"/>
+<rect x="150" y="48" width="22" height="22" rx="6" fill="#60a5fa"/>
+<rect x="150" y="79" width="22" height="22" rx="6" fill="#fbbf24"/>
+<rect x="150" y="110" width="22" height="22" rx="6" fill="#34d399"/>
+<rect x="182" y="55" width="55" height="8" rx="4" fill="#bfdbfe"/>
+<rect x="182" y="86" width="42" height="8" rx="4" fill="#fde68a"/>
+<rect x="182" y="117" width="48" height="8" rx="4" fill="#a7f3d0"/>
+<g fill="none" stroke="#1e3a8a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M155 59 L159 63 L166 54"/><path d="M155 90 L159 94 L166 85"/><path d="M155 121 L159 125 L166 116"/></g>
+<text x="190" y="195" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="500" fill="#1e3a8a">C27 Checklist</text>
+<text x="190" y="222" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="12" fill="#6b6a65">Physics · Maths · Chemistry</text>
+</svg>

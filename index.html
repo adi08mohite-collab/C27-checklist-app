@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>C27 Lecture Checklist</title>
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#1e3a8a">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<div class="brand"><svg width="56" height="56" role="img" aria-label="C27 Checklist logo" viewBox="0 0 130 130"><rect width="130" height="130" rx="30" fill="#1e3a8a"/><rect x="25" y="28" width="22" height="22" rx="6" fill="#60a5fa"/><rect x="25" y="59" width="22" height="22" rx="6" fill="#fbbf24"/><rect x="25" y="90" width="22" height="22" rx="6" fill="#34d399"/><rect x="57" y="35" width="55" height="8" rx="4" fill="#bfdbfe"/><rect x="57" y="66" width="42" height="8" rx="4" fill="#fde68a"/><rect x="57" y="97" width="48" height="8" rx="4" fill="#a7f3d0"/></svg><h1>C27 Checklist</h1></div>
+<div class="sub">7 Sep to 25 Oct 2026 · Evening COC + Champions · Overall: <b id="all">0/0</b></div>
+<button id="install" hidden style="margin:0 0 14px;background:#1e3a8a;color:white;border:0;padding:10px 14px;font-size:15px">Install App</button>
+<div id="root">Loading…</div>
+<button id="reset">Reset all</button>
+</main>
+<script src="app.js"></script>
+<script>
+if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js").catch(console.error));
+let deferredPrompt; const installBtn = document.getElementById("install");
+window.addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); deferredPrompt = e; installBtn.hidden = false; });
+installBtn.addEventListener("click", async () => { if (!deferredPrompt) return; deferredPrompt.prompt(); await deferredPrompt.userChoice; deferredPrompt = null; installBtn.hidden = true; });
+window.addEventListener("appinstalled", () => { installBtn.hidden = true; });
+</script>
+</body>
+</html>

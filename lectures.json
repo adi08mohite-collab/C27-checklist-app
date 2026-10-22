@@ -1,0 +1,20 @@
+{
+  "batch": "C27 Completely Online Evening COC + Champions",
+  "timing": "5:30 pm to 9:00 pm",
+  "range": "2026-09-07 to 2026-10-25",
+  "subjects": [
+    {"id":"P","name":"Physics (P22)","color":"--p","items":[
+      {"label":"7 Sep"},{"label":"10 Sep"},{"label":"15 Sep"},{"label":"18 Sep"},{"label":"23 Sep"},{"label":"26 Sep"},{"label":"29 Sep"},
+      {"label":"1 Oct"},{"label":"5 Oct"},{"label":"7 Oct"},{"label":"14 Oct"},{"label":"19 Oct"},{"label":"22 Oct"}]},
+    {"id":"M","name":"Maths (M25)","color":"--m","items":[
+      {"label":"11 Sep"},{"label":"13 Sep"},{"label":"14 Sep"},{"label":"17 Sep"},{"label":"25 Sep"},{"label":"27 Sep"},
+      {"label":"4 Oct"},{"label":"8 Oct"},{"label":"10 Oct"},{"label":"13 Oct"},{"label":"18 Oct"},{"label":"21 Oct"},{"label":"24 Oct"}]},
+    {"id":"C","name":"Chemistry","color":"--c","items":[
+      {"label":"9 Sep","tag":"C13"},{"label":"12 Sep","tag":"C13"},{"label":"20 Sep","tag":"C13"},{"label":"21 Sep","tag":"C17"},
+      {"label":"22 Sep","tag":"C13"},{"label":"28 Sep","tag":"C17"},{"label":"30 Sep","tag":"C13"},{"label":"6 Oct","tag":"C17"},
+      {"label":"9 Oct","tag":"C17"},{"label":"11 Oct","tag":"C13"},{"label":"15 Oct","tag":"C22 [O]"},{"label":"16 Oct","tag":"C17 [P]"},
+      {"label":"17 Oct","tag":"C22 [O]"},{"label":"20 Oct","tag":"C17 [P]"},{"label":"23 Oct","tag":"C22 [O]"}]},
+    {"id":"T","name":"Grand BTest · 25 Oct","color":"--t","items":[
+      {"label":"Paper I","tag":"11:00 am to 2:00 pm"},{"label":"Paper II","tag":"3:30 to 6:30 pm"}]}
+  ]
+}
